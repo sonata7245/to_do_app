@@ -1,0 +1,70 @@
+.Completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.ToDo{
+    display: flex;
+    margin: 0 -3rem 4px;
+    padding: 1.1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.ToDo-Buttons{
+    flex-shrink: 0;
+    padding-left: 0.7rem;
+}
+
+.ToDo-Buttons button{
+    border: none;
+    font-size: 1em;
+    margin: 0.4em;
+    background: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.ToDo-Form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ToDo-Form label{
+    min-width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.ToDo-Form input{
+    flex-grow: 1;
+    border: none;
+    background: #f7f1f1;
+    padding: 0 1.5em;
+    font-size: initial;
+}
+
+.ToDo-Form button {
+    padding: 0 1.3rem;
+    border: none;
+    background: #2db0c2;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background .2s ease-out;
+}
+
+.ToDo-Form button:hover{
+    background: #2692a0
+}
+
+.ToDo-Form input,
+.ToDo-Form button {
+    font-family: "Quicksand", sans-serif;
+    height: 3rem;
+}
